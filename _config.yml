@@ -1,4 +1,6 @@
-title: "Remote theme example"
+title: "metalcupcake5's website"
 remote_theme: pmarsceill/just-the-docs
 color_scheme: "dark"
 search_enabled: false
+baseurl: "/"
+url: "https://metalcupcake5.github.io"
