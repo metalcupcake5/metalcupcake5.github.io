@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projects
-description: All of my projects
+nav_order: 2
 ---
 
 ## List of projects
