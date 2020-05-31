@@ -1,2 +1,4 @@
 theme: pmarsceill/just-the-docs
-title: metalcupcake5's page
+title: "metalcupcake5's page"
+color_scheme: "dark"
+search_enabled: false
