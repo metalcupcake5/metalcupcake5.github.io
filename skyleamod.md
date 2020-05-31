@@ -1,6 +1,6 @@
 ---
 title: Sky.Lea.Mod
-parent: projects
+parent: Projects
 nav_order: 2
 ---
 <h1>{{page.title}}</h1>
