@@ -1,0 +1,54 @@
+* {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body {
+    background: url(bg.png) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0px;
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+    background: gray;
+    width: 100%;
+    margin-bottom: 0;
+    opacity: 90%;
+}
+
+.wrapper {
+    background: rgba(128, 128, 128, 0.9);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10vh 15vw 15vh;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    opacity: 1;
+    justify-content: center;
+}
+
+.list {
+    margin: auto;
+}
+
+#about-me {
+    margin: auto;
+}
+
+#pfp {
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.footer-content {
+    padding: 10px;
+}
+
