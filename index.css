@@ -14,8 +14,8 @@ footer {
     text-align: center;
     background: gray;
     width: 100%;
-    margin-bottom: 0;
     opacity: 90%;
+    overflow: hidden;
 }
 
 .wrapper {
