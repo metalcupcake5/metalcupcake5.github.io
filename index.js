@@ -32,6 +32,10 @@ const backgrounds = [
     {
         path: "/img/backgrounds/5.png",
         pixiv_id: "89618492",
+    },
+    {
+        path: "/img/backgrounds/6.jpg",
+        pixiv_id: "98032318"
     }
 ];
 const bg = backgrounds[Math.floor(Math.random() * backgrounds.length)]
