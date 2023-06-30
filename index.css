@@ -12,7 +12,7 @@ body {
 footer {
     height: 50px;
     text-align: center;
-    background: gray;
+    background: rgba(0, 0, 0, 0.75);
     width: 100%;
     opacity: 90%;
     overflow: hidden;
