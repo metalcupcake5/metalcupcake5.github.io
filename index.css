@@ -19,7 +19,7 @@ footer {
 }
 
 .wrapper {
-    background: rgba(128, 128, 128, 0.9);
+    background: rgba(0, 0, 0, 0.75);
     border-radius: 10px;
     padding: 30px;
     margin: 10vh 15vw 15vh;
