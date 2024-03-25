@@ -1,68 +1,55 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
 * {
-    font-family: sans-serif;
-    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
 }
 
 body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
     background: no-repeat center center fixed;
     background-size: cover;
     margin: 0px;
 }
 
-footer {
-    height: 50px;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.75);
-    width: 100%;
-    opacity: 90%;
-    overflow: hidden;
-}
-
 .wrapper {
-    background: rgba(0, 0, 0, 0.75);
-    border-radius: 10px;
-    padding: 30px;
-    margin: 10vh 15vw 15vh;
-}
-
-.box {    
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.75);
     color: white;
-    opacity: 1;
-    justify-content: space-around;
 }
 
-.box-v {
-    display: flex;
-    flex-direction: column;
-}
-
-.box-h {
+.flex {
     display: flex;
     flex-direction: row;
+    gap: 20px;
 }
 
-.list {
-    margin: auto;
+.no-underline {
+    text-decoration: none;
 }
 
 .icon {
-    width: 1.5rem;
+    height: 300px;
 }
 
-#about-me {
-    margin: auto;
+a {
+    color: white;
 }
 
-#pfp {
-    margin: auto;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
+a:hover {
+    color: rgb(180, 180, 180);
 }
 
-.footer-content {
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.cursor {
+    animation: blink-animation 1s steps(2, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
 }
