@@ -53,3 +53,7 @@ a:hover {
         visibility: hidden;
     }
 }
+
+.buttons>a {
+    text-decoration: none;
+}
